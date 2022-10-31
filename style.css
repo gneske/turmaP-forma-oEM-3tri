@@ -1,0 +1,35 @@
+body{
+    background-color: azure;
+}
+header
+{background-color:burlywood ;}
+
+h1{
+    font-size: 40px;
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 5px dotted blue;
+    padding: 30px;
+    padding-top: 30 px;
+    padding-bottom: ;
+}
+nav li {
+    display:inline;
+    margin-left: 50px;
+    font-size 20px;
+    font-family: verdana, Verdana, Geneva, Tahoma, sans-serif;
+}
+p{ font-family: 'Courier New', Courier, monospace;
+font-size: 20 px;
+color: indigo;
+margin: 10 px;
+}
+.p1{
+    color:blue;
+    font-style: ;
+    padding: 10px;
+}
+.img1{
+    text-align: right;
+    padding: 5px;
+}
