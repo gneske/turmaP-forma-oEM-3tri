@@ -1,9 +1,18 @@
 body{
     background-color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(img-yyyyy.jpeg); 
 }
 header
-{background-color:burlywood ;}
-
+{background-color:burlywood ;
+border: 5px double lightcoral;
+padding-bottom: 10 px;
+position: fixed;
+top:0;
+left: 0;
+width; 100 px;
+height: 40 px;
+}
 h1{
     font-size: 40px;
     text-align:center;
@@ -15,10 +24,30 @@ h1{
 }
 nav li {
     display:inline;
-    margin-left: 50px;
+    margin-left: 200px;
     font-size 20px;
     font-family: verdana, Verdana, Geneva, Tahoma, sans-serif;
 }
+
+nav a {
+   text-decoration: none; 
+   text-transform: uppercase;
+   color: blue;
+   font-weight: bold;
+   border-radius:3px;
+   background-color: beige;
+   padding: 2px;
+}
+
+nav a:hover{
+    font-size: 30px;
+    color: goldenrod;
+    }
+nav a:active{
+    font-size: 25px;
+    color: goldenrod
+}
+
 p{ font-family: 'Courier New', Courier, monospace;
 font-size: 20 px;
 color: indigo;
@@ -32,4 +61,50 @@ margin: 10 px;
 .img1{
     text-align: right;
     padding: 5px;
+}
+.testeposition1{
+    position: static;
+    width: 40px;
+    heigth: 300px;
+    text: align;
+    right: ;
+
+    border:5px solid rebeccapurple;
+    width: 50%;
+    height: 300 px;
+}
+.texteposition2{ 
+    border: 3px dotted red;
+}
+.jesuita {
+    display: inline-block;
+    border: 5px dotted blueviolet;
+    margin-top: 30px;
+}
+.Margaet {
+    display: inline-block;
+    border: 5px dotted blueviolet;
+    margin-top: 30px;
+    border-radius: 15px;
+}   
+footer{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 8px;
+    font-weight: bold;
+    border: 2px dashed darkblue;
+    background-image: url(img-xxxxx.jpeg);
+
+}
+.itens.first-child{
+    color:blue;
+}
+.tens:first-letter{
+    font-weight: bold;
+}
+.itens:before{
+    content: "☻";
+}
+.tens:after{
+    content: "☻";
 }
