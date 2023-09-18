@@ -1,110 +1,48 @@
-body{
-    background-color: azure;
-    font-family: 'Courier New', Courier, monospace;
-    background-image: url(img-yyyyy.jpeg); 
-}
-header
-{background-color:burlywood ;
-border: 5px double lightcoral;
-padding-bottom: 10 px;
-position: fixed;
-top:0;
-left: 0;
-width; 100 px;
-height: 40 px;
-}
-h1{
-    font-size: 40px;
-    text-align:center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 5px dotted blue;
-    padding: 30px;
-    padding-top: 30 px;
-    padding-bottom: ;
-}
-nav li {
-    display:inline;
-    margin-left: 200px;
-    font-size 20px;
-    font-family: verdana, Verdana, Geneva, Tahoma, sans-serif;
+#banner {
+	width:100%;
 }
 
-nav a {
-   text-decoration: none; 
-   text-transform: uppercase;
-   color: blue;
-   font-weight: bold;
-   border-radius:3px;
-   background-color: beige;
-   padding: 2px;
+.principal{
+	background: #CCCCCC;
+	padding: 30px;
 }
 
-nav a:hover{
-    font-size: 30px;
-    color: goldenrod;
-    }
-nav a:active{
-    font-size: 25px;
-    color: goldenrod
+.titulo-principal {
+	padding-left: 20px;
 }
 
-p{ font-family: 'Courier New', Courier, monospace;
-font-size: 20 px;
-color: indigo;
-margin: 10 px;
+.titulo-centralizado {
+	text-align: center
 }
-.p1{
-    color:blue;
-    font-style: ;
-    padding: 10px;
-}
-.img1{
-    text-align: right;
-    padding: 5px;
-}
-.testeposition1{
-    position: static;
-    width: 40px;
-    heigth: 300px;
-    text: align;
-    right: ;
 
-    border:5px solid rebeccapurple;
-    width: 50%;
-    height: 300 px;
+p {
+	text-align: center;
 }
-.texteposition2{ 
-    border: 3px dotted red;
-}
-.jesuita {
-    display: inline-block;
-    border: 5px dotted blueviolet;
-    margin-top: 30px;
-}
-.Margaet {
-    display: inline-block;
-    border: 5px dotted blueviolet;
-    margin-top: 30px;
-    border-radius: 15px;
-}   
-footer{
-    text-align: center;
-    margin-top: 100px;
-    font-size: 8px;
-    font-weight: bold;
-    border: 2px dashed darkblue;
-    background-image: url(img-xxxxx.jpeg);
 
+#missao {
+	font-size: 20px
 }
-.itens.first-child{
-    color:blue;
+
+em strong {
+	color: #FF0000;
 }
-.tens:first-letter{
-    font-weight: bold;
+
+.itens {
+	font-style: italic
 }
-.itens:before{
-    content: "☻";
+
+.beneficios {
+	background: #FFFFFF;
+	padding: 20px;
 }
-.tens:after{
-    content: "☻";
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.imagembeneficios {
+	width: 50%;
 }
